@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<!-- секция заголовка документа -->
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Lab_3.js"></script>
+    <title>Andrew's 3rd lab</title>
+</head>
+<!-- тело документа -->
+<body style="background: #FFFFCC">
+    <h2 align="center">Лабораторная работа 3</h2>
+    <br><br><br><br><br><br><br>
+    <h3 align="center">Калькулятор</h3>
+    <div style="width: 700px; margin: 0 auto; text-align: center; background-color:honeydew; border: 1px solid black;">
+        <input type="number" id="input1">
+        <select id="operation">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="input2">
+        <span id="resText">= ___</span><br><br>
+        <input type="button" value="Вычислить" onclick="onClick()"/>
+    </div>   
+</body>
+</html>
